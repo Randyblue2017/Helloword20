@@ -1,6 +1,11 @@
-<h1> Hello, Welcome to Simple DevOps Project RandyBlue !!   </h1>
-<h2> Data Service Group is your learning partner </h2>
-<h2> Glad to see you here </h2>
-<h1> Good job Randy on learning Devops </h1>
-<h2> proud of who we are </h2>
-<h1> this ligne is for docker03 </h1>
+<h1> Hello, Welcome to a Simple DevOps Project of RandyBlue !!   </h1>
+<h2> Data Service Group is your learning partner and resource group </h2>
+<h2> Glad to see you're here and hope your time spent here will be meaningful </h2>
+<h1> Good job Randy on learning Devops</h1>
+<h1> I can not wait for you to start making big $$$$ doing this </h1>
+<h1> This line is for docker test </h1>
+<h1> Finally !!!! </h1>
+<h1> 6-21-2021 </h1>
+0<h1> We'll be introducing a new page soon, please hold tight </h1>
+<h2> Thanks for your patience and this process will be quick </h2>
+<h1> dev-code </h1>
