@@ -1,0 +1,67 @@
+Undo Commit push to remote Repository and rewrite commit
+
+Wednesday, February 23, 2022
+9:37 AM
+
+Run:
+
+$git reset --soft HEAD~1					(HEAD~1 = Number of commit you wanna go back. Let say for the last two commits use:   HEAD~2
+
+How to Resolve Branch Conflicts
+
+Wednesday, March 23, 2022
+11:45 AM
+
+Resolving Branch Conflict 
+
+Watch YouTube video:
+
+https://www.youtube.com/watch?v=29xipesE8y4
+
+
+Step to resolve:
+	• I’d pull down his changes and make sure not to overwrite them since they’re granting access to eng resources for new developers
+	• While on your “Local branch” run:
+
+$git pull origin main		
+
+(This will pull the conflict changes into you local, go into that file and make your change. Just remove the conflict lines and leave your changes and the other dev changes, and save. )
+
+
+$git add .
+
+$ git commit -m "Resolve conflicts"
+
+$git push 
+
+
+Do you know how to use git blame or do you have the GitLens extension installed in VS Code? They’ll show you who made a change
+
+I installed GitLens extension already
+
+(with the GitLens extension, if you click on a line in a file, it’ll tell you who added it and when. It’ll add three buttons to the top of each window that let you go back and forth between revisions if you want to see what the file looked like during different commits)
+
+
+****N/B When resolving conflicts in $kubernetes/clusters/eng-us-east-2.v3/ambassador-main/auth/config/stratis-eng-htpasswd , $kubernetes/clusters/eng-us-east-2.v3/eng-tools/stratis-eng-htpasswd.yaml or $kubernetes/clusters/eng-us-east-2.v3/eng-tools/verdaccio/config-map.yaml you Shouldn’t regenerate configmap, apply configmap before pushing to remote. Just add, commit and push you changes to remote.
+
+<<<<<<< HEAD
+  htpasswd: |
+=======
+  htpasswd: |-
+>>>>>>> 9164e8a5cb9ab3893a65fe0d9e6617b6ca000f8c
+
+
+
+Undo Commit push to remote Repository and rewrite commit
+Wednesday, February 23, 2022
+9:37 AM
+Run:
+ 
+$git reset --soft HEAD					(HEAD~1 = Number of commit you wanna go back. Let say for the last two commits use:   HEAD~2
+
+
+
+
+
+
+
