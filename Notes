@@ -1531,3 +1531,11 @@ Search for “JDK.” Click “install” to install OpenJDK.
 
 Preview unavailable
 java --version
+
+
+Windows Port Forwarding
+
+Thursday, March 10, 2022
+5:44 PM
+
+aws ssm start-session --target i-048ewi3954e47939 --document-name AWS-StartPortForwardingSession --parameters '{"portNumber":["3389"],"localPortNumber":["9999"]}'
