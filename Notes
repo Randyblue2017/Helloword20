@@ -1,1 +1,77 @@
 Important Notes
+
+
+Useful Links:
+
+Visual Studio Code Live screen sharing:
+
+https://code.visualstudio.com/learn/collaboration/live-share
+
+
+How to install iterm2 with colors and auto suggestions:
+
+https://gist.github.com/kevin-smets/8568070       or    kevin-smets/iterm2-solarized.md
+
+
+Free Site to Learn how to Code/programming/Aaron Recommendation 
+
+https://developer.thenewboston.com/tutorials/Programming
+
+
+Kubernetes commands:    (About Faster way to switch between clusters and namespaces in kubectl)
+
+https://github.com/ahmetb/kubectx
+
+
+How to setup Ansible
+
+https://github.com/ansible/ansible
+
+
+Learn Git commands, tutorial, definition 
+
+https://www.gitkraken.com/learn/git#concepts
+
+
+How to write perfect Git commit message:
+
+https://cbea.ms/git-commit/#separate
+
+Terraform version manager:
+
+https://github.com/tfutils/tfenv
+
+
+Kubernetes documentation:
+
+https://kubernetes.io/docs/_print/
+
+
+Step-by-step guide to setting up Prometheus Alertmanager with Slack, PagerDuty, and Gmail:
+
+
+https://grafana.com/blog/2020/02/25/step-by-step-guide-to-setting-up-prometheus-alertmanager-with-slack-pagerduty-and-gmail/
+
+
+Vitual Env setup/docs:
+
+
+https://virtualenv.pypa.io/en/latest/
+
+
+Git Interactive Rebase, Squash, Amend and Other Ways of Rewriting History:
+
+
+https://thoughtbot.com/blog/git-interactive-rebase-squash-amend-rewriting-history
+
+
+git pull from remote but no such ref was fetched?:
+
+
+https://unix.stackexchange.com/questions/66548/git-pull-from-remote-but-no-such-ref-was-fetched
+
+
+Resource: aws_eks_cluster:
+
+
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eks_cluster
