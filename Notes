@@ -1,6 +1,78 @@
 Important Notes
 
 
+Stratis SRE team responsibilities 
+SRE
+* Kubernetes (9 clusters) 
+* Cloud infrastructure Incident response and on-call rotation 
+* LoRa 
+* Performance Tuning 
+* KDDI (legacy support, included in other bullets) 
+* Kafka (5 clusters) 
+* MQTT brokers (14 clusters) 
+* Databases (8 RDS Aurora clusters, 3 k8s Postgres instances, 5 Redis environments) 
+* Logging, Monitoring, Alerting infrastructure (Elasticsearch, Fluentd, Alertmanager, Prometheus, Grafana, Pagerduty) 
+* Certificate management (general PKI for gateways and cloud environments) 
+* AWS administration (Long-term S3 storage, VPC and IAM configuration) 
+* Non-Kubernetes infrastructure 
+    * Virtual Machine provisioning 
+    * Dormakaba 
+    * Salto 
+    * Wireguard 
+    * UniFi 
+    * Mender 
+    * Eng Machines (through to the azure devops migration) 
+    * Website + Database  
+* Azure DevOps Migration 
+Security
+* SOC 2, Policies, Procedures 
+* SIEM and responses it uncovers 
+* Network, Web, Mobile, vulnerability scanning and remediation 
+* Training + code reviews 
+IT 
+IT efforts are being offloaded to RP over time
+* Migrating services to their active directory so onboarding/offboarding is primarily run through them  
+    * LastPass 
+    * Google 
+    * Salesforce 
+* Helpdesk has already been migrated, and helpdesk effort will shrink as more services are migrated to AD 
+* Onboarding of internal services 
+    * Azure 
+    * Kubernetes 
+    * Github 
+    * Gerrit (through the end of the Azure DevOps Migration)  
+    * VPN 
+    * JumpCloud (less necessary over time)  
+Proposal
+* SRE team remains intact and moves into Charlie Hill’s organization 
+* SRE team will have a brief sync with each of the dev teams every two weeks to figure out their needs and how best we can support them 
+* Reschedule sprint meetings to align with other dev teams and management priorities 
+* SRE team leverages hiring pipeline of the rest of the software engineering org 
+* Short-to-Medium Term - IT moves entirely to RealPage 
+* Medium-to-Long Term - Security separates from SRE team after SRE team has enough backfill to handle on-call rotation 
+
+What role does SRE play at stratis? 
+* The SRE team is an engineering team that plays dual roles of supporting our server infrastructure as well as empowering software developers to build safe, reliable software.  
+* While most of the software development teams are writing code to define “what does the STRATIS platform do”, the SRE team is focused on “what is the STRATIS platform running on”. 
+* Supporting the server infrastructure involves performing maintenance on those systems, like Kubernetes, UniFi, and our Windows systems. 
+* We are also usually involved in helping architect and deploy the parts of the STRATIS platform that doesn’t fit into our standard systems, such as LoRa, Dormakaba, and Salto. 
+ 
+Who is on the team? 
+*   
+ 
+What is day-to-day life like for someone on the team? 
+* The SRE team handles a wide variety of issues day-to-day. We operate as an agile software development team, with the same meetings and task management strategies as the other teams 
+* We start with scrum at 9:10 AM, where we talk about what we worked on the day before, what we’re working on today, and whether or not we have any blockers.  
+* After that, we break out into working on individual projects, usually related to keeping the infrastructure healthy (running updates, investigating problems, re-architecting existing systems, etc). This sometimes requires working together with the other software teams to collaborate on a task.  
+* We also maintain an on-call rotation for immediate incident response when serious outages happen.  
+
+
+
+
+
+
+
+
 Useful Links:
 
 Visual Studio Code Live screen sharing:
